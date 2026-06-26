@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Contact",
+  description: "Get in touch with Amanda Morrison about implementation, customer success, or technical account management roles.",
+};
+
 export default function ContactPage() {
     return (
       <main className="min-h-screen text-white py-12 px-6 flex flex-col items-center justify-center pt-32">

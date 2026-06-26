@@ -27,6 +27,10 @@ const Navbar = () => {
             Home
           </Link>
 
+          <Link href="/about" className="text-gray-800 hover:text-blue-500">
+            About
+          </Link>
+
           {/* Projects Dropdown */}
           <div className="relative" id="projects-menu">
             <button

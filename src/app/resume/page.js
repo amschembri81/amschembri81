@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Resume",
+  description:
+    "20+ years across SaaS implementation, customer success, and K-12 public sector leadership. Download Amanda Morrison's resume.",
+};
+
 export default function ResumePage() {
   return (
     <main className="min-h-screen text-white py-12 px-6 pt-32">

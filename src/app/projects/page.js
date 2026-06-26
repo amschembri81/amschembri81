@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Projects",
+  description:
+    "Automation tools, dashboards, and ML applications built with Google Apps Script, SQL, Python, and modern web tools.",
+};
+
 export default function ProjectsOverview() {
   return (
     <>

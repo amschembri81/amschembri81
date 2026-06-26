@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Design Projects",
+  description: "UI/UX design case studies — user research, wireframing, and prototyping work.",
+};
+
 export default function DesignProjectsOverview() {
   return (
     <>
