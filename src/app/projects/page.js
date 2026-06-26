@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ProjectsOverview() {
   return (
     <>
-      <main className="min-h-screen bg-black text-white pt-28 p-6">
+      <main className="min-h-screen text-white pt-28 p-6">
         <h1 className="text-3xl font-bold mb-2 text-center">Applied Data &amp; Technical Projects</h1>
         <p className="text-gray-400 text-center max-w-2xl mx-auto mb-12">
           Independent projects built to keep my technical skills sharp alongside my implementation and

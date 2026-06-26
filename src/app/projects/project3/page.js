@@ -1,6 +1,6 @@
 export default function Project3() {
   return (
-    <div className="pt-32 p-8 max-w-3xl mx-auto text-white bg-black min-h-screen">
+    <div className="pt-32 p-8 max-w-3xl mx-auto text-white min-h-screen">
       <h1 className="text-4xl font-bold mb-4 text-center text-gray-300">
         Term Deposit Subscription Predictor: SMOTE + Random Forest + Streamlit
       </h1>

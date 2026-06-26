@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Design2() {
   return (
-    <main className="min-h-screen bg-black text-white px-4 pt-32 pb-16">
+    <main className="min-h-screen text-white px-4 pt-32 pb-16">
       <h1 className="text-4xl font-bold mb-10 text-center text-gray-300">
         Luxe Cosmetics: E-Commerce Checkout Experience
       </h1>

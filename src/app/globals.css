@@ -7,23 +7,16 @@ html {
   font-size: 16px;
 }
 
-/* Light mode (default) CSS variables */
+/* Site theme: deep purple-to-teal gradient mesh, fixed behind all pages */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0c0c0c;
+  --foreground: #ededed;
 }
 
-/* Dark mode CSS variables, applied when user's system prefers dark theme */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-/* Apply background and text color using the CSS variables */
 body {
-  background: var(--background);
+  background: linear-gradient(160deg, #1a1730 0%, #26215C 22%, #154a45 60%, #085041 85%, #04342C 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
   color: var(--foreground);
-  
 }

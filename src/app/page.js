@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main
       id="home"
-      className="min-h-screen flex flex-col items-center justify-center px-4 pt-36 pb-20 bg-black text-white"
+      className="min-h-screen flex flex-col items-center justify-center px-4 pt-36 pb-20 text-white"
     >
       <h1 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-4">
         Hi, I&apos;m Amanda Morrison{" "}

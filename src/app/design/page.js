@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function DesignProjectsOverview() {
   return (
     <>
-      <main className="min-h-screen bg-black text-white pt-28 p-6">
+      <main className="min-h-screen text-white pt-28 p-6">
         <h1 className="text-3xl font-bold mb-2 text-center">UI/UX Design Projects</h1>
         <p className="text-gray-400 text-center max-w-2xl mx-auto mb-8">
           Case studies from my UI/UX design certification — user research, wireframing, and prototyping
