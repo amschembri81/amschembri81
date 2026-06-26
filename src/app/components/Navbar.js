@@ -37,10 +37,39 @@ const Navbar = () => {
             </button>
 
             {showProjectsDropdown && (
-              <div className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-lg py-2 w-80 z-50">
-                {/* Data Projects */}
+              <div className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-lg py-2 w-80 z-50 max-h-[80vh] overflow-y-auto">
+                {/* Automation & Implementation Projects */}
                 <div className="px-4 py-2 text-base font-semibold text-gray-700">
-                  Data Projects
+                  Automation &amp; Implementation
+                </div>
+                <Link
+                  href="/projects/automation/kpi-command-center"
+                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  KPI Command Center
+                </Link>
+                <Link
+                  href="/projects/automation/workflow-automation"
+                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  Workflow Automation &amp; Task Tracker
+                </Link>
+                <Link
+                  href="/projects/automation/sales-funnel-dashboard"
+                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  Sales &amp; Lead Funnel Dashboard
+                </Link>
+                <Link
+                  href="/projects/automation/spreadsheet-rescue"
+                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  Spreadsheet Rescue &amp; Optimization
+                </Link>
+
+                {/* Data Projects */}
+                <div className="px-4 pt-4 pb-2 text-base font-semibold text-gray-700 border-t border-gray-200">
+                  Data &amp; ML Projects
                 </div>
                 <Link
                   href="/projects"
@@ -124,18 +153,6 @@ const Navbar = () => {
                   className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
                 >
                   Nestara
-                </Link>
-                <Link
-                  href="/design/design5"
-                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Project 5
-                </Link>
-                <Link
-                  href="/design/design6"
-                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Project 6
                 </Link>
               </div>
             )}

@@ -1,0 +1,48 @@
+KPI COMMAND CENTER – SETUP GUIDE
+
+STEP 1
+Open Google Sheets.
+
+STEP 2
+Go to Extensions → Apps Script.
+
+STEP 3
+Copy KPI_Command_Center.gs into Setup.gs or File.gs.
+
+STEP 4
+Save project.
+
+STEP 5
+Run buildKPIDashboard.
+
+RAW DATA REQUIRED COLUMNS
+Submitted Date
+Responded To
+Resolved Date
+Owner
+Status
+Account
+Priority
+
+OUTPUT TABS CREATED
+• Setup
+• Raw Data
+• Clean Data
+• Executive Dashboard
+• Team Metrics
+• Config
+
+DASHBOARDS GENERATED
+Executive Dashboard:
+- Total Cases
+- SLA %
+- Avg Response Hours
+- Typical Response Hours
+- Avg Resolution Hours
+- Charts by Status, Priority, Account
+
+Team Metrics:
+- Cases by Rep
+- SLA by Rep
+- Response comparisons
+- Open vs Resolved tracking

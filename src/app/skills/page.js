@@ -13,13 +13,50 @@ export default function Skills() {
 
   const skillSections = [
     {
+      title: "Implementation & Customer Success",
+      skills: [
+        "End-to-End SaaS Implementation",
+        "Customer Success Management",
+        "Onboarding & Adoption",
+        "Risk Identification & Mitigation",
+        "QBR Facilitation",
+        "Playbook Development",
+        "Process Automation",
+        "Agile / Scrum",
+      ],
+    },
+    {
+      title: "AI & Productivity",
+      skills: [
+        "Claude",
+        "ChatGPT",
+        "Microsoft Copilot",
+        "Glean",
+        "AI-Native Workflow Design",
+        "Prompt Engineering",
+        "Automation Design",
+        "Google Workspace",
+      ],
+    },
+    {
+      title: "Domain Expertise",
+      skills: [
+        "K-12 & Public Sector",
+        "EdTech",
+        "Adult Learning & Instructional Design",
+        "Assessment & Data-Driven Instruction",
+        "District & Government Stakeholder Navigation",
+        "Change Management",
+      ],
+    },
+    {
       title: "Analytics & Visualization",
       skills: [
         "Advanced Google Sheets",
         "Excel",
         "Power BI",
         "Tableau",
-        "Looker Studio",
+        "Looker",
         "Dashboard design",
         "Data storytelling",
       ],
@@ -48,7 +85,7 @@ export default function Skills() {
     },
     {
       title: "Productivity & Collaboration Tools",
-      skills: ["Salesforce", "Jira", "Trello", "Notion", "Miro"],
+      skills: ["Salesforce", "Jira", "Asana", "Smartsheet", "Trello", "Notion", "Miro"],
     },
     {
       title: "Content & Support",
@@ -108,6 +145,10 @@ export default function Skills() {
         <h2 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight">
           Skills
         </h2>
+        <p className="text-gray-400 max-w-2xl mx-auto mt-4">
+          A blend of implementation and customer success expertise, AI-native
+          workflows, and the technical and design skills I&apos;ve built alongside it.
+        </p>
       </div>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">

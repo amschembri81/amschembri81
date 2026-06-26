@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -30,7 +29,6 @@ export default function NestaraProjectPage() {
 
   return (
     <>
-      <Navbar />
       <main className="min-h-screen bg-black text-white pt-28 p-6">
         <div className="max-w-4xl mx-auto space-y-10">
           <h1 className="text-4xl font-bold text-center">Nestara</h1>

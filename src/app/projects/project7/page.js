@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import Image from "next/image"; 
 
-export default function Project1() {
+export default function Project7() {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
