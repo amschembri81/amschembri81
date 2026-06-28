@@ -4,10 +4,23 @@ export const metadata = {
     "From K-12 classrooms to enterprise SaaS implementation — how 15 years of teaching became the best training I never planned for.",
 };
 
+import Image from "next/image";
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen text-white py-12 px-6 pt-32">
       <div className="max-w-3xl mx-auto">
+        <div className="flex flex-col items-center mb-8">
+          <Image
+            src="/assets/Headshot.png"
+            alt="Amanda Morrison"
+            width={200}
+            height={238}
+            className="rounded-xl shadow-lg object-cover"
+            priority
+          />
+        </div>
+
         <h1 className="text-3xl font-bold mb-8 text-center text-gray-100">
           About Me
         </h1>
