@@ -118,10 +118,10 @@ const Navbar = () => {
                   Customer Churn Explainability
                 </Link>
                 <Link
-                  href="/projects/project2"
+                  href="/projects/customer-health-dashboard"
                   className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
                 >
-                  Amazon Review Dashboard: SQL + Python Pipeline
+                  Customer Health Dashboard
                 </Link>
                 <Link
                   href="/projects/project4"

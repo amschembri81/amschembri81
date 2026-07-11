@@ -167,20 +167,19 @@ export default function ProjectsOverview() {
             </p>
           </Link>
 
-          {/* Project 2 */}
+          {/* Customer Health Dashboard */}
           <Link
-            href="/projects/project2"
+            href="/projects/customer-health-dashboard"
             className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
           >
             <h3 className="text-xl font-semibold text-gray-400 mb-2">
-              Amazon Review Dashboard: SQL + Python Data Pipeline
+              Customer Health Dashboard
             </h3>
             <p>
-              Extracted Amazon customer product reviews with PostgreSQL and SQLAlchemy, cleaned and
-              transformed the data with Pandas, and ran sentiment analysis to derive new features from
-              raw review text. Built an interactive Streamlit dashboard with sidebar filters and four
-              visualizations — score distribution, sentiment breakdown, and monthly review trends — to
-              explore how customer sentiment shifts over time.
+              Built a SQL-driven account health scoring engine — window functions and CTEs over
+              synthetic login, feature-adoption, and support-ticket data — to produce a 0–100 health
+              score and risk tier per account. Surfaced through both a Streamlit app and a
+              zero-install HTML dashboard with a live, filterable demo.
             </p>
           </Link>
 
