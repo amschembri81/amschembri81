@@ -123,6 +123,12 @@ const Navbar = () => {
                 >
                   SuperStore Sales Dashboard
                 </Link>
+                <Link
+                  href="/projects/project8"
+                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  PyIndex — AI-Powered Enterprise Search
+                </Link>
 
                 {/* Design Projects */}
                 <div className="px-4 pt-4 pb-2 text-base font-semibold text-gray-700 border-t border-gray-200">
