@@ -1,4 +1,4 @@
-const BASE_URL = "https://www.amandamorrison.dev";
+const BASE_URL = "https://www.amanda-morrison.com";
 
 const staticRoutes = [
   "",

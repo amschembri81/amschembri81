@@ -6,7 +6,7 @@ I combine data storytelling, dashboard design, and intuitive front-end developme
 
 Having transitioned from a successful career in education, I bring a master’s degree in Integrative Leadership (with a focus on data and agile methodologies) and certifications in UI/UX Design and Full Stack Web Development. I thrive in roles that combine technical problem-solving with strategic systems thinking and cross-functional collaboration, especially within mission-driven organizations.
 
-Live site: [amandamorrison.dev](https://www.amandamorrison.dev)
+Live site: [amanda-morrison.com](https://www.amanda-morrison.com)
 
 ---
 
@@ -61,7 +61,7 @@ This portfolio showcases a diverse range of projects across UX design, full stac
 
 ## 💻 Featured Projects
 
-Full write-ups, screenshots, and source links for all of these live at [amandamorrison.dev/projects](https://www.amandamorrison.dev/projects).
+Full write-ups, screenshots, and source links for all of these live at [amanda-morrison.com/projects](https://www.amanda-morrison.com/projects).
 
 ### 🔧 Automation & Implementation
 

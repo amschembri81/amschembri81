@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.amandamorrison.dev"),
+  metadataBase: new URL("https://www.amanda-morrison.com"),
   title: {
     default: "Amanda Morrison | Implementation & Customer Success",
     template: "%s | Amanda Morrison",
@@ -25,7 +25,7 @@ export const metadata = {
     title: "Amanda Morrison | Implementation & Customer Success",
     description:
       "Former K-12 educator turned SaaS implementation manager. Portfolio of automation projects, technical skills, and resume.",
-    url: "https://www.amandamorrison.dev",
+    url: "https://www.amanda-morrison.com",
     siteName: "Amanda Morrison",
     images: [
       {

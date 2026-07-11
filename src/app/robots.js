@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: ["/design", "/projects/project5", "/projects/project7"],
     },
-    sitemap: "https://www.amandamorrison.dev/sitemap.xml",
+    sitemap: "https://www.amanda-morrison.com/sitemap.xml",
   };
 }
