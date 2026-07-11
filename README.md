@@ -6,7 +6,7 @@ I combine data storytelling, dashboard design, and intuitive front-end developme
 
 Having transitioned from a successful career in education, I bring a master’s degree in Integrative Leadership (with a focus on data and agile methodologies) and certifications in UI/UX Design and Full Stack Web Development. I thrive in roles that combine technical problem-solving with strategic systems thinking and cross-functional collaboration, especially within mission-driven organizations.
 
-Live site: [amanda-morrison.com](https://www.amanda-morrison.com)
+Live site: [amandamorrison.dev](https://www.amandamorrison.dev)
 
 ---
 
@@ -23,7 +23,7 @@ This portfolio showcases a diverse range of projects across UX design, full stac
 
 ### 📊 Data Analysis & Machine Learning
 - Pandas, NumPy
-- Scikit-learn, XGBoost, LightDBM
+- Scikit-learn, XGBoost, LightGBM
 - SHAP (SHapley Additive exPlanations)
 - Jupyter Notebook
 
@@ -61,30 +61,33 @@ This portfolio showcases a diverse range of projects across UX design, full stac
 
 ## 💻 Featured Projects
 
+Full write-ups, screenshots, and source links for all of these live at [amandamorrison.dev/projects](https://www.amandamorrison.dev/projects).
 
-
-### 🎨 Data Projects
+### 🔧 Automation & Implementation
 
 | Project | Description |
 |--------|-------------|
-| **Customer Churn Explainability Dashboard** | SHAP-based Streamlit dashboard to interpret model predictions |
-| **Live Data Stream Dashboard** | Real-time analytics dashboard using WebSockets + React + Chart.js |
-| **SQL + Python Data Pipeline** | ETL pipeline project using PostgreSQL and Pandas |
-| **Task Tracker** | Frontend React app integrated with Google Sheets API |
-| **Superstore Sales Dashboard** | Power BI dashboard for sales and profit analysis |
+| **KPI Command Center** | Google Apps Script KPI dashboard that turns raw support case data into an executive dashboard and team performance view — SLA tracking, response/resolution metrics, auto-generated charts |
+| **Workflow Automation & Task Tracker** | Google Sheets task tracker with one-click updates, automatic dashboard refreshes, completed-task archiving, and scheduled daily refresh triggers via Apps Script |
+| **Sales & Lead Funnel Dashboard** | Google Sheets tool that validates a raw CSV lead export before building a conversion rate, win/loss, deal value, and owner performance dashboard |
+| **Spreadsheet Rescue & Optimization** | Safety-first Apps Script add-on that audits a messy spreadsheet, generates a plain-language health report, and backs up the file before any cleanup runs |
 
+### 🤖 Applied AI Projects
 
+| Project | Description |
+|--------|-------------|
+| **PyIndex — AI-Powered Enterprise Search** | Glean-style enterprise search demo built with FastAPI and React — ingests real PyPI documentation, indexes it with TF-IDF, and generates Claude-powered cited answers |
+| **Pathlight Onboarding Assistant** | Grounded AI chatbot for a fictional K-12 platform — answers navigation questions with the exact click path, cited to the source guide entry (Flask + Claude API) |
+| **Clinical Text Extractor** | GPT-4 powered Streamlit dashboard that extracts structured data — diagnoses, medications, follow-up plans — from unstructured clinical notes, with SQLite logging |
 
-### 📈 Design Projects
+### 📊 Data & Machine Learning
 
-| Project       | Description |
-|---------------|-------------|
-| **GalleryPal** | A mobile museum companion app offering audio insights, artwork scanning, and personalized gallery tours — designed in Figma for a seamless on-site experience. |
-| **Luxe Cosmetics** | E-commerce UI/UX for a boutique cosmetics brand featuring a modern checkout flow, responsive layouts, and Stripe-ready interface — designed and prototyped in Figma. |
-| **Trackify** | A special education IEP tracking app with clear data visualizations, goal tracking tools, and accessibility-focused UX — designed with Figma and tested over a 3-week sprint. |
-| **Nestara** | Real estate mobile app inspired by Zillow, supporting agent discovery, home searches, appointments, and saved collections — built collaboratively in a team of 6 designers. |
-| **[Coming Soon]** | Additional projects in-progress, including onboarding flows and mobile design systems. |
-
+| Project | Description |
+|--------|-------------|
+| **Term Deposit Subscription Predictor** | Full-stack ML app using Random Forest and SMOTE to predict term deposit subscriptions, with Streamlit dashboards for model evaluation and batch prediction |
+| **Customer Churn Explainability Dashboard** | SHAP-based Streamlit dashboard that interprets XGBoost churn predictions via summary, scatter, waterfall, and decision plots |
+| **Customer Health Dashboard** | SQL-driven account health scoring engine — window functions and CTEs over login, adoption, and support data — surfaced through a Streamlit app and a live HTML dashboard |
+| **Live Data Stream Dashboard** | Real-time analytics dashboard streaming clickstream and purchase activity via FastAPI, WebSockets, and Chart.js |
 
 ---
 
