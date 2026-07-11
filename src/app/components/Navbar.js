@@ -42,8 +42,15 @@ const Navbar = () => {
 
             {showProjectsDropdown && (
               <div className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-lg py-2 w-80 z-50 max-h-[80vh] overflow-y-auto">
+                <Link
+                  href="/projects"
+                  className="block px-4 py-2 text-gray-800 hover:bg-blue-100 font-semibold border-b border-gray-200"
+                >
+                  View All Projects
+                </Link>
+
                 {/* Automation & Implementation Projects */}
-                <div className="px-4 py-2 text-base font-semibold text-gray-700">
+                <div className="px-4 pt-4 pb-2 text-base font-semibold text-gray-700">
                   Automation &amp; Implementation
                 </div>
                 <Link
@@ -71,15 +78,21 @@ const Navbar = () => {
                   Spreadsheet Rescue &amp; Optimization
                 </Link>
 
-                {/* Data Projects */}
+                {/* Applied AI Projects */}
                 <div className="px-4 pt-4 pb-2 text-base font-semibold text-gray-700 border-t border-gray-200">
-                  Data &amp; ML Projects
+                  Applied AI Projects
                 </div>
                 <Link
-                  href="/projects"
-                  className="block px-6 py-2 text-gray-800 hover:bg-blue-100 font-semibold"
+                  href="/projects/project8"
+                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
                 >
-                  Overview of Data Projects
+                  PyIndex — AI-Powered Enterprise Search
+                </Link>
+                <Link
+                  href="/projects/project9"
+                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  Pathlight Onboarding Assistant
                 </Link>
                 <Link
                   href="/projects/project1"
@@ -87,29 +100,16 @@ const Navbar = () => {
                 >
                   Clinical Text Extractor
                 </Link>
-                <Link
-                  href="/projects/project2"
-                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  SQL + Python Data Pipeline
-                </Link>
+
+                {/* Data & Machine Learning */}
+                <div className="px-4 pt-4 pb-2 text-base font-semibold text-gray-700 border-t border-gray-200">
+                  Data &amp; Machine Learning
+                </div>
                 <Link
                   href="/projects/project3"
                   className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
                 >
                   Term Deposit Subscription Predictor
-                </Link>
-                <Link
-                  href="/projects/project4"
-                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Live Data Stream Dashboard
-                </Link>
-                <Link
-                  href="/projects/project5"
-                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Task Tracker with Google Sheets
                 </Link>
                 <Link
                   href="/projects/project6"
@@ -118,51 +118,16 @@ const Navbar = () => {
                   Customer Churn Explainability
                 </Link>
                 <Link
-                  href="/projects/project7"
+                  href="/projects/project2"
                   className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
                 >
-                  SuperStore Sales Dashboard
+                  Amazon Review Dashboard: SQL + Python Pipeline
                 </Link>
                 <Link
-                  href="/projects/project8"
+                  href="/projects/project4"
                   className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
                 >
-                  PyIndex — AI-Powered Enterprise Search
-                </Link>
-
-                {/* Design Projects */}
-                <div className="px-4 pt-4 pb-2 text-base font-semibold text-gray-700 border-t border-gray-200">
-                  Design Projects
-                </div>
-                <Link
-                  href="/design"
-                  className="block px-6 py-2 text-gray-800 hover:bg-blue-100 font-semibold"
-                >
-                  Overview of Design Projects
-                </Link>
-                <Link
-                  href="/design/design1"
-                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  GalleryPal
-                </Link>
-                <Link
-                  href="/design/design2"
-                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Luxe Cosmetics
-                </Link>
-                <Link
-                  href="/design/design3"
-                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Trackify
-                </Link>
-                <Link
-                  href="/design/design4"
-                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
-                >
-                  Nestara
+                  Live Data Stream Dashboard
                 </Link>
               </div>
             )}

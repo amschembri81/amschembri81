@@ -6,9 +6,12 @@ export default function Project2() {
       </h1>
 
       <p className="text-lg mb-6 text-gray-300 text-center">
-        This project demonstrates how to build a data pipeline and interactive
-        dashboard by combining SQL for data extraction, Python for
-        transformation and sentiment analysis, and Streamlit for visualization.
+        An end-to-end pipeline for a real Amazon product review dataset —
+        SQL for extraction, Python for cleaning and sentiment scoring, and a
+        Streamlit dashboard for exploring how customer sentiment and review
+        volume shift over time. Built to practice the full extract-transform-
+        visualize workflow on unstructured, real-world text data rather than
+        a pre-cleaned sample dataset.
       </p>
 
       {/* Summary */}

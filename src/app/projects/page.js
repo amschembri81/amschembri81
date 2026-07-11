@@ -80,14 +80,46 @@ export default function ProjectsOverview() {
           </Link>
         </div>
 
-        {/* Data & ML Projects */}
+        {/* Applied AI Projects */}
         <h2 className="text-2xl font-bold mb-2 text-center text-gray-200">
-          Data &amp; ML Projects
+          Applied AI Projects
         </h2>
         <p className="text-gray-500 text-center max-w-2xl mx-auto mb-6">
-          Earlier projects built to sharpen my SQL, Python, and machine learning skills.
+          LLM-powered tools — retrieval, grounded generation, and cited answers built on
+          the Claude API.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-16">
+          {/* Project 8 */}
+          <Link
+            href="/projects/project8"
+            className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
+          >
+            <h3 className="text-xl font-semibold text-gray-400 mb-2">
+              PyIndex — AI-Powered Enterprise Search
+            </h3>
+            <p>
+              A Glean-style enterprise search demo built with FastAPI and React — ingests real
+              documentation from the PyPI API, indexes it with TF-IDF search, and generates
+              Claude-powered, cited answers on top of the raw results.
+            </p>
+          </Link>
+
+          {/* Project 9 */}
+          <Link
+            href="/projects/project9"
+            className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
+          >
+            <h3 className="text-xl font-semibold text-gray-400 mb-2">
+              Pathlight Onboarding Assistant
+            </h3>
+            <p>
+              A grounded AI chatbot for a fictional K-12 platform — ask a navigation
+              question in plain English and get back the exact click path, cited to
+              the source guide entry. Built with Flask, Claude, and a custom
+              retrieval layer to pair instructional design with applied AI engineering.
+            </p>
+          </Link>
+
           {/* Project 1 */}
           <Link
             href="/projects/project1"
@@ -99,22 +131,16 @@ export default function ProjectsOverview() {
             <p>
               A Streamlit dashboard that transforms unstructured clinical notes into structured, analyzable data - highlighting my skills in API integration, LLM-powered extraction, SQLite logging, and interactive visualizations to help users identify diagnoses, prescriptions, and follow-up plans with clarity and ease.</p>
           </Link>
+        </div>
 
-          {/* Project 2 */}
-          <Link
-            href="/projects/project2"
-            className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
-          >
-            <h3 className="text-xl font-semibold text-gray-400 mb-2">
-              SQL + Python Data Pipeline
-            </h3>
-            <p>
-              Extracted customer sales data using SQL, cleaned and analyzed it
-              with Python (Pandas), and visualized trends using matplotlib and
-              seaborn to uncover key business insights.
-            </p>
-          </Link>
-
+        {/* Data & Machine Learning */}
+        <h2 className="text-2xl font-bold mb-2 text-center text-gray-200">
+          Data &amp; Machine Learning
+        </h2>
+        <p className="text-gray-500 text-center max-w-2xl mx-auto mb-6">
+          Earlier projects built to sharpen my SQL, Python, and machine learning skills.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {/* Project 3 */}
           <Link
             href="/projects/project3"
@@ -125,32 +151,6 @@ export default function ProjectsOverview() {
             </h3>
             <p>
               Built a full-stack machine learning app using Random Forest and SMOTE to predict whether a banking customer will subscribe to a term deposit. Includes interactive dashboards for model evaluation, batch prediction, and customer segmentation via Streamlit.
-            </p>
-          </Link>
-
-          {/* Project 4 */}
-          <Link
-            href="/projects/project4"
-            className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
-          >
-            <h3 className="text-xl font-semibold text-gray-400 mb-2">
-              Live Data Stream Dashboard
-            </h3>
-            <p>
-              A real-time dashboard built with FastAPI, WebSockets, and React that streams live clickstream data and purchase activity. Includes dynamic Chart.js visualizations, CSV export, and logs live product interactions. Built for performance monitoring and behavioral analysis.
-            </p>
-          </Link>
-
-          {/* Project 5 */}
-          <Link
-            href="/projects/project5"
-            className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
-          >
-            <h3 className="text-xl font-semibold text-gray-400 mb-2">
-              Task Tracker with Google Sheets
-            </h3>
-            <p>
-              A lightweight task management tool built in React using TailwindCSS and connected to Google Sheets for persistent data storage. Includes dynamic filtering by task status, real-time submission form, and spreadsheet sync for tracking due dates and priorities.
             </p>
           </Link>
 
@@ -167,32 +167,33 @@ export default function ProjectsOverview() {
             </p>
           </Link>
 
-          {/* Project 7 */}
+          {/* Project 2 */}
           <Link
-            href="/projects/project7"
+            href="/projects/project2"
             className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
           >
             <h3 className="text-xl font-semibold text-gray-400 mb-2">
-              SuperStore Sales Dashboard
+              Amazon Review Dashboard: SQL + Python Data Pipeline
             </h3>
             <p>
-              An interactive Tableau dashboard built from real-world SuperStore data — a multi-level
-              analysis of profit trends, regional sales performance, and product category effectiveness.
+              Extracted Amazon customer product reviews with PostgreSQL and SQLAlchemy, cleaned and
+              transformed the data with Pandas, and ran sentiment analysis to derive new features from
+              raw review text. Built an interactive Streamlit dashboard with sidebar filters and four
+              visualizations — score distribution, sentiment breakdown, and monthly review trends — to
+              explore how customer sentiment shifts over time.
             </p>
           </Link>
 
-          {/* Project 8 */}
+          {/* Project 4 */}
           <Link
-            href="/projects/project8"
+            href="/projects/project4"
             className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
           >
             <h3 className="text-xl font-semibold text-gray-400 mb-2">
-              PyIndex — AI-Powered Enterprise Search
+              Live Data Stream Dashboard
             </h3>
             <p>
-              A Glean-style enterprise search demo built with FastAPI and React — ingests real
-              documentation from the PyPI API, indexes it with TF-IDF search, and generates
-              Claude-powered, cited answers on top of the raw results.
+              A real-time dashboard built with FastAPI, WebSockets, and React that streams live clickstream data and purchase activity. Includes dynamic Chart.js visualizations, CSV export, and logs live product interactions. Built for performance monitoring and behavioral analysis.
             </p>
           </Link>
         </div>
