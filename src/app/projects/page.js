@@ -180,6 +180,21 @@ export default function ProjectsOverview() {
               analysis of profit trends, regional sales performance, and product category effectiveness.
             </p>
           </Link>
+
+          {/* Project 8 */}
+          <Link
+            href="/projects/project8"
+            className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
+          >
+            <h3 className="text-xl font-semibold text-gray-400 mb-2">
+              PyIndex — AI-Powered Enterprise Search
+            </h3>
+            <p>
+              A Glean-style enterprise search demo built with FastAPI and React — ingests real
+              documentation from the PyPI API, indexes it with TF-IDF search, and generates
+              Claude-powered, cited answers on top of the raw results.
+            </p>
+          </Link>
         </div>
       </main>
     </>
