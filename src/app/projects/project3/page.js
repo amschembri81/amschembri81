@@ -1,3 +1,16 @@
+import Image from "next/image";
+
+export const metadata = {
+  title: "Term Deposit Subscription Predictor",
+  description:
+    "A full-stack ML app using Random Forest and SMOTE to predict term deposit subscriptions, with interactive Streamlit dashboards for model evaluation, batch prediction, and segmentation.",
+  openGraph: {
+    title: "Term Deposit Subscription Predictor | Amanda Morrison",
+    description:
+      "A full-stack ML app using Random Forest and SMOTE to predict term deposit subscriptions, with interactive Streamlit dashboards for model evaluation, batch prediction, and segmentation.",
+  },
+};
+
 export default function Project3() {
   return (
     <div className="pt-32 p-8 max-w-3xl mx-auto text-white min-h-screen">
@@ -43,9 +56,11 @@ export default function Project3() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project3/Model_Evaluation_Metrics.png"
             alt="Model Evaluation Metrics"
+            width={3306}
+            height={888}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
@@ -54,9 +69,11 @@ export default function Project3() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project3/Top_Important_Features.png"
             alt="Top Important Features"
+            width={3304}
+            height={1748}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
@@ -67,9 +84,11 @@ export default function Project3() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project3/Segment_Analysis.png"
             alt="Segment Analysis"
+            width={1665}
+            height={835}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
@@ -78,9 +97,11 @@ export default function Project3() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project3/Batch_CSV_Prediction.png"
             alt="Batch CSV Prediction"
+            width={1655}
+            height={707}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>

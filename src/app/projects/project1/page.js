@@ -1,3 +1,16 @@
+import Image from "next/image";
+
+export const metadata = {
+  title: "Clinical Text Extractor",
+  description:
+    "A GPT-4 powered Streamlit dashboard that extracts structured data — diagnoses, medications, follow-up plans — from unstructured clinical notes, with SQLite logging and interactive visualizations.",
+  openGraph: {
+    title: "Clinical Text Extractor | Amanda Morrison",
+    description:
+      "A GPT-4 powered Streamlit dashboard that extracts structured data — diagnoses, medications, follow-up plans — from unstructured clinical notes, with SQLite logging and interactive visualizations.",
+  },
+};
+
 export default function Project1() {
   return (
     <div className="pt-32 p-8 max-w-3xl mx-auto text-white min-h-screen">
@@ -39,9 +52,11 @@ export default function Project1() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project1/Upload_Extract.png"
             alt="Upload and Extract view"
+            width={3304}
+            height={1598}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
@@ -50,9 +65,11 @@ export default function Project1() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project1/Manual_Input.png"
             alt="Manual Input view"
+            width={3300}
+            height={1382}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>

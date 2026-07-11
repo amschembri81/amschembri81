@@ -1,3 +1,16 @@
+import Image from "next/image";
+
+export const metadata = {
+  title: "Workflow Automation & Task Tracker",
+  description:
+    "A self-contained Google Sheets system that tracks tasks and rolls them up into a live dashboard, with scheduled refreshes and automatic archiving.",
+  openGraph: {
+    title: "Workflow Automation & Task Tracker | Amanda Morrison",
+    description:
+      "A self-contained Google Sheets system that tracks tasks and rolls them up into a live dashboard, with scheduled refreshes and automatic archiving.",
+  },
+};
+
 export default function WorkflowAutomation() {
   return (
     <div className="pt-32 p-8 max-w-3xl mx-auto text-white min-h-screen">
@@ -55,16 +68,20 @@ export default function WorkflowAutomation() {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
         <a href="/images/automation/workflow-automation/Dashboard-1.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/workflow-automation/Dashboard-1.png"
             alt="Workflow Automation dashboard showing tasks by status, priority, and owner"
+            width={1651}
+            height={1275}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
         <a href="/images/automation/workflow-automation/Task_Tracker-01.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/workflow-automation/Task_Tracker-01.png"
             alt="Task Tracker tab with task IDs, owners, priorities, and due dates"
+            width={1651}
+            height={1275}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>

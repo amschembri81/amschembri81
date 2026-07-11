@@ -1,3 +1,16 @@
+import Image from "next/image";
+
+export const metadata = {
+  title: "Live Data Stream Dashboard",
+  description:
+    "A real-time dashboard built with FastAPI, WebSockets, and Chart.js that streams live clickstream and purchase activity, with CSV export and GitHub-integrated source.",
+  openGraph: {
+    title: "Live Data Stream Dashboard | Amanda Morrison",
+    description:
+      "A real-time dashboard built with FastAPI, WebSockets, and Chart.js that streams live clickstream and purchase activity, with CSV export and GitHub-integrated source.",
+  },
+};
+
 export default function Project4() {
   return (
     <div className="pt-32 p-8 max-w-4xl mx-auto text-white min-h-screen">
@@ -35,9 +48,11 @@ export default function Project4() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project4/Outcome_Distribution.png"
             alt="Outcome Distribution"
+            width={2756}
+            height={1638}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
@@ -46,9 +61,11 @@ export default function Project4() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project4/Realtime_Product_Price.png"
             alt="Real-Time Product Price"
+            width={2740}
+            height={1520}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
@@ -57,9 +74,11 @@ export default function Project4() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project4/Live_Purchase_Amount.png"
             alt="Live Purchase Amount"
+            width={2766}
+            height={1510}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
@@ -68,9 +87,11 @@ export default function Project4() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project4/Live_Clickstream_Data.png"
             alt="Live Clickstream Data"
+            width={2732}
+            height={1396}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
@@ -84,7 +105,7 @@ export default function Project4() {
       </p>
       <div className="flex flex-col md:flex-row gap-4 mb-24">
         <a
-          href="/images/assets/cleaned_clickstream.csv"
+          href="/assets/cleaned_clickstream.csv"
           className="bg-gray-600 text-white px-6 py-3 rounded hover:bg-gray-700 transition text-center"
           download
         >

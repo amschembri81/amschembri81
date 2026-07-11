@@ -1,3 +1,16 @@
+import Image from "next/image";
+
+export const metadata = {
+  title: "Spreadsheet Rescue & Optimization",
+  description:
+    "A safety-first Google Sheets add-on that audits a messy spreadsheet, generates a plain-language health report, and backs up the file before any cleanup runs.",
+  openGraph: {
+    title: "Spreadsheet Rescue & Optimization | Amanda Morrison",
+    description:
+      "A safety-first Google Sheets add-on that audits a messy spreadsheet, generates a plain-language health report, and backs up the file before any cleanup runs.",
+  },
+};
+
 export default function SpreadsheetRescue() {
   return (
     <div className="pt-32 p-8 max-w-3xl mx-auto text-white min-h-screen">
@@ -51,32 +64,40 @@ export default function SpreadsheetRescue() {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         <a href="/images/automation/spreadsheet-rescue/Run_Audit.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/spreadsheet-rescue/Run_Audit.png"
             alt="Run Spreadsheet Audit confirmation dialog"
+            width={806}
+            height={358}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
         <a href="/images/automation/spreadsheet-rescue/Spreadsheet_Audit_Report.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/spreadsheet-rescue/Spreadsheet_Audit_Report.png"
             alt="Rescue Report showing rows, columns, blank rows, and status per sheet"
+            width={944}
+            height={246}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
         <a href="/images/automation/spreadsheet-rescue/Backup_Created.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/spreadsheet-rescue/Backup_Created.png"
             alt="Backup Created confirmation before running cleanup"
+            width={720}
+            height={398}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
         <a href="/images/automation/spreadsheet-rescue/Clean_Blank_Rows.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/spreadsheet-rescue/Clean_Blank_Rows.png"
             alt="Clean Blank Rows confirmation dialog"
+            width={888}
+            height={464}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>

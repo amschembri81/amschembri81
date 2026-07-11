@@ -1,3 +1,16 @@
+import Image from "next/image";
+
+export const metadata = {
+  title: "KPI Command Center",
+  description:
+    "A Google Apps Script–powered KPI dashboard that turns raw support case data into an executive dashboard and team performance view.",
+  openGraph: {
+    title: "KPI Command Center | Amanda Morrison",
+    description:
+      "A Google Apps Script–powered KPI dashboard that turns raw support case data into an executive dashboard and team performance view.",
+  },
+};
+
 export default function KPICommandCenter() {
   return (
     <div className="pt-32 p-8 max-w-3xl mx-auto text-white min-h-screen">
@@ -52,32 +65,40 @@ export default function KPICommandCenter() {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         <a href="/images/automation/kpi-command-center/Executive_Dashboard.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/kpi-command-center/Executive_Dashboard.png"
             alt="Executive Dashboard showing total cases, SLA %, and response/resolution metrics"
+            width={2042}
+            height={1516}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
         <a href="/images/automation/kpi-command-center/Dashboard_Visuals.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/kpi-command-center/Dashboard_Visuals.png"
             alt="Charts by status, priority, and account"
+            width={1584}
+            height={1034}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
         <a href="/images/automation/kpi-command-center/Team_Metrics.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/kpi-command-center/Team_Metrics.png"
             alt="Team Metrics dashboard broken down by rep"
+            width={2008}
+            height={1514}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
         <a href="/images/automation/kpi-command-center/Setup_Tab.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/kpi-command-center/Setup_Tab.png"
             alt="Setup tab used to run the dashboard build"
+            width={1194}
+            height={1800}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>

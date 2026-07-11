@@ -160,10 +160,12 @@ export default function ProjectsOverview() {
             className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
           >
             <h3 className="text-xl font-semibold text-gray-400 mb-2">
-              Customer Churn Prediction Model
+              Customer Churn Explainability Dashboard
             </h3>
             <p>
-              Developed a machine learning model to predict customer churn, using scikit-learn for model training and evaluation. Features include data preprocessing, feature engineering, and a comparative analysis of different classification algorithms (e.g., Logistic Regression, Gradient Boosting) to identify the most impactful predictors of churn.
+              An interactive Streamlit dashboard that uses SHAP (SHapley Additive exPlanations) to
+              interpret an XGBoost churn model — upload a dataset, train the model, and explore
+              predictions through summary, scatter, waterfall, and decision plots.
             </p>
           </Link>
 

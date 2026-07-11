@@ -1,3 +1,16 @@
+import Image from "next/image";
+
+export const metadata = {
+  title: "Task Tracker: Google Sheets + React",
+  description:
+    "A full-stack productivity tool built with React that connects to Google Sheets for task submission, filtering, and live progress tracking.",
+  openGraph: {
+    title: "Task Tracker: Google Sheets + React | Amanda Morrison",
+    description:
+      "A full-stack productivity tool built with React that connects to Google Sheets for task submission, filtering, and live progress tracking.",
+  },
+};
+
 export default function Project5() {
   return (
     <div className="pt-32 p-8 max-w-3xl mx-auto text-white min-h-screen">
@@ -35,9 +48,11 @@ export default function Project5() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project5/Submit_A_Task.png"
             alt="Submit a Task"
+            width={2688}
+            height={1754}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
@@ -46,9 +61,11 @@ export default function Project5() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project5/Submitted_Tasks.png"
             alt="Submitted Tasks Table"
+            width={1459}
+            height={456}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
@@ -59,9 +76,11 @@ export default function Project5() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/images/project5/Task_Tracker_Spreadsheet.png"
             alt="Connected Google Sheet"
+            width={871}
+            height={453}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>

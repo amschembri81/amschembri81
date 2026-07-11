@@ -1,3 +1,14 @@
+export const metadata = {
+  title: "PyIndex — AI-Powered Enterprise Search",
+  description:
+    "A Glean-style enterprise search demo built with FastAPI and React — ingests real PyPI documentation, indexes it with TF-IDF, and generates Claude-powered cited answers.",
+  openGraph: {
+    title: "PyIndex — AI-Powered Enterprise Search | Amanda Morrison",
+    description:
+      "A Glean-style enterprise search demo built with FastAPI and React — ingests real PyPI documentation, indexes it with TF-IDF, and generates Claude-powered cited answers.",
+  },
+};
+
 export default function Project8() {
   return (
     <div className="pt-32 p-8 max-w-4xl mx-auto text-white min-h-screen">

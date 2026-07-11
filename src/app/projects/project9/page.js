@@ -1,3 +1,14 @@
+export const metadata = {
+  title: "Pathlight Onboarding Assistant",
+  description:
+    "A grounded AI chatbot for a fictional K-12 platform that answers navigation questions with the exact click path, cited to the source guide entry.",
+  openGraph: {
+    title: "Pathlight Onboarding Assistant | Amanda Morrison",
+    description:
+      "A grounded AI chatbot for a fictional K-12 platform that answers navigation questions with the exact click path, cited to the source guide entry.",
+  },
+};
+
 export default function Project9() {
   return (
     <div className="pt-32 p-8 max-w-4xl mx-auto text-white min-h-screen">

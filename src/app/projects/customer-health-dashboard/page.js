@@ -1,3 +1,14 @@
+export const metadata = {
+  title: "Customer Health Dashboard",
+  description:
+    "A SQL-driven account health scoring engine — window functions and CTEs over synthetic login, adoption, and support data — surfaced through a Streamlit app and a live HTML dashboard.",
+  openGraph: {
+    title: "Customer Health Dashboard | Amanda Morrison",
+    description:
+      "A SQL-driven account health scoring engine — window functions and CTEs over synthetic login, adoption, and support data — surfaced through a Streamlit app and a live HTML dashboard.",
+  },
+};
+
 export default function CustomerHealthDashboard() {
   return (
     <div className="pt-32 p-8 max-w-3xl mx-auto text-white min-h-screen">

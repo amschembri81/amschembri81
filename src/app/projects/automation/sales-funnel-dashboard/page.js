@@ -1,3 +1,16 @@
+import Image from "next/image";
+
+export const metadata = {
+  title: "Sales & Lead Funnel Dashboard",
+  description:
+    "A Google Sheets tool that validates a raw CSV lead export and builds a sales and lead funnel dashboard — conversion rate, win/loss, deal value, and owner performance.",
+  openGraph: {
+    title: "Sales & Lead Funnel Dashboard | Amanda Morrison",
+    description:
+      "A Google Sheets tool that validates a raw CSV lead export and builds a sales and lead funnel dashboard — conversion rate, win/loss, deal value, and owner performance.",
+  },
+};
+
 export default function SalesFunnelDashboard() {
   return (
     <div className="pt-32 p-8 max-w-3xl mx-auto text-white min-h-screen">
@@ -50,32 +63,40 @@ export default function SalesFunnelDashboard() {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         <a href="/images/automation/sales-funnel-dashboard/Setup_Screen.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/sales-funnel-dashboard/Setup_Screen.png"
             alt="Setup tab explaining how to import data and required columns"
+            width={2198}
+            height={1800}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
         <a href="/images/automation/sales-funnel-dashboard/Data_Validation.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/sales-funnel-dashboard/Data_Validation.png"
             alt="Validation tab confirming required and optional columns were found"
+            width={2144}
+            height={1804}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
         <a href="/images/automation/sales-funnel-dashboard/Demo_Raw_Data.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/sales-funnel-dashboard/Demo_Raw_Data.png"
             alt="Sample raw lead data ready for import"
+            width={2206}
+            height={1804}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>
         <a href="/images/automation/sales-funnel-dashboard/Updated_Dashboard.png" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/images/automation/sales-funnel-dashboard/Updated_Dashboard.png"
             alt="Finished sales and lead funnel dashboard with KPIs and charts"
+            width={2348}
+            height={1586}
             className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
           />
         </a>

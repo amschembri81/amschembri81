@@ -1,5 +1,16 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "Customer Churn Explainability Dashboard",
+  description:
+    "An interactive Streamlit dashboard using SHAP to interpret XGBoost churn predictions, with summary, scatter, waterfall, and decision plots.",
+  openGraph: {
+    title: "Customer Churn Explainability Dashboard | Amanda Morrison",
+    description:
+      "An interactive Streamlit dashboard using SHAP to interpret XGBoost churn predictions, with summary, scatter, waterfall, and decision plots.",
+  },
+};
+
 export default function Project6() {
   return (
     <div className="pt-32 p-8 max-w-3xl mx-auto text-white min-h-screen">
