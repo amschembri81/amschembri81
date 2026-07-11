@@ -1,2 +1,1 @@
 public/assets/Reviews.csv filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
