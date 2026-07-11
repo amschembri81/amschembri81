@@ -6,7 +6,7 @@ export default function Project8() {
       </h1>
 
       <p className="text-lg mb-6 text-gray-300 text-center">
-        A Glean-style enterprise search demo: real documentation ingested from
+        An enterprise search demo: real documentation ingested from
         a public API, indexed for search, and answered with Claude-generated,
         cited responses — built with FastAPI, React, and the Anthropic API.
       </p>
