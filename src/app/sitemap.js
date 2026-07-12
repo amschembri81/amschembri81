@@ -8,6 +8,7 @@ const staticRoutes = [
   "/projects/automation/workflow-automation",
   "/projects/automation/sales-funnel-dashboard",
   "/projects/automation/spreadsheet-rescue",
+  "/projects/automation/implementation-tracker",
   "/projects/customer-health-dashboard",
   "/projects/project1",
   "/projects/project3",

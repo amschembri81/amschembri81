@@ -78,6 +78,20 @@ export default function ProjectsOverview() {
               health report, and backs up the file automatically before any cleanup runs.
             </p>
           </Link>
+
+          <Link
+            href="/projects/automation/implementation-tracker"
+            className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
+          >
+            <h3 className="text-xl font-semibold text-gray-400 mb-2">
+              Implementation Tracker
+            </h3>
+            <p>
+              A full-stack project management tool for implementation managers — track projects,
+              milestones, and risks, with an auto-computed health score and status reports exportable
+              as PDF. Built with React, FastAPI, and SQLite.
+            </p>
+          </Link>
         </div>
 
         {/* Applied AI Projects */}

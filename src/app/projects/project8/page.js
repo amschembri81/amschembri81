@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   title: "PyIndex — AI-Powered Enterprise Search",
   description:
@@ -53,6 +55,39 @@ export default function Project8() {
         <li>React, Vite</li>
         <li>PyPI JSON API (public data source)</li>
       </ul>
+
+      {/* Screenshots */}
+      <h2 className="text-2xl font-semibold mt-6 mb-2 text-gray-300">📷 Screenshots</h2>
+      <div className="grid grid-cols-1 mb-4">
+        <a
+          href="/images/automation/pyindex-search/Landing_Search.png"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/images/automation/pyindex-search/Landing_Search.png"
+            alt="PyIndex search bar with the index status showing passages indexed across 25 packages"
+            width={1738}
+            height={554}
+            className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
+          />
+        </a>
+      </div>
+      <div className="grid grid-cols-1 mb-10">
+        <a
+          href="/images/automation/pyindex-search/AI_Answer_Pydantic.png"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/images/automation/pyindex-search/AI_Answer_Pydantic.png"
+            alt="Claude-generated AI Answer with inline citation chips for a Pydantic validation question"
+            width={1350}
+            height={1770}
+            className="rounded shadow-md w-full hover:scale-105 transition-transform duration-200"
+          />
+        </a>
+      </div>
 
       {/* GitHub */}
       <h2 className="text-2xl font-semibold mt-10 mb-2 text-gray-300">📁 Source Code</h2>
