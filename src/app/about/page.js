@@ -12,7 +12,7 @@ export default function AboutPage() {
       <div className="max-w-3xl mx-auto">
         <div className="flex flex-col items-center mb-8">
           <Image
-            src="/assets/Headshot.png"
+            src="/assets/Headshot2.png"
             alt="Amanda Morrison"
             width={200}
             height={238}
