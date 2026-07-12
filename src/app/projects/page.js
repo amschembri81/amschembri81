@@ -155,6 +155,22 @@ export default function ProjectsOverview() {
           Earlier projects built to sharpen my SQL, Python, and machine learning skills.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {/* Creator Analytics Dashboard (YouTube) */}
+          <Link
+            href="/projects/youtube-dashboard"
+            className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
+          >
+            <h3 className="text-xl font-semibold text-gray-400 mb-2">
+              Creator Analytics Dashboard
+            </h3>
+            <p>
+              A Streamlit dashboard powered by the YouTube Data API v3 that
+              compares up to four YouTube channels side by side — subscriber
+              counts, upload cadence, engagement rate, and top-performing
+              videos, visualized with Pandas and Plotly.
+            </p>
+          </Link>
+
           {/* Project 3 */}
           <Link
             href="/projects/project3"

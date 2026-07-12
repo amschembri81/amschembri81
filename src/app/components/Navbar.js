@@ -112,6 +112,12 @@ const Navbar = () => {
                   Data &amp; Machine Learning
                 </div>
                 <Link
+                  href="/projects/youtube-dashboard"
+                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  Creator Analytics Dashboard
+                </Link>
+                <Link
                   href="/projects/project3"
                   className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
                 >
