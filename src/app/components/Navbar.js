@@ -27,10 +27,6 @@ const Navbar = () => {
             Home
           </Link>
 
-          <Link href="/about" className="text-gray-800 hover:text-blue-500">
-            About
-          </Link>
-
           {/* Projects Dropdown */}
           <div className="relative" id="projects-menu">
             <button
@@ -112,6 +108,12 @@ const Navbar = () => {
                   Data &amp; Machine Learning
                 </div>
                 <Link
+                  href="/projects/search-tool"
+                  className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
+                >
+                  Personal Knowledge Base Search
+                </Link>
+                <Link
                   href="/projects/youtube-dashboard"
                   className="block list-item list-disc ml-8 pl-2 py-2 text-gray-800 hover:bg-blue-100"
                 >
@@ -148,6 +150,9 @@ const Navbar = () => {
           {/* Other Links */}
           <Link href="/skills" className="text-gray-800 hover:text-blue-500">
             Skills
+          </Link>
+          <Link href="/about" className="text-gray-800 hover:text-blue-500">
+            About Me
           </Link>
           <Link href="/contact" className="text-gray-800 hover:text-blue-500">
             Contact

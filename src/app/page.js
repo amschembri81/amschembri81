@@ -32,7 +32,7 @@ export default function Home() {
       <div className="flex flex-wrap items-center justify-center divide-x divide-white/10 mb-10">
         <div className="px-6 text-center">
           <p className="text-2xl font-bold text-white">15</p>
-          <p className="text-sm text-gray-400">Years in EdTech</p>
+          <p className="text-sm text-gray-400">Years in SaaS &amp; Client Success</p>
         </div>
         <div className="px-6 text-center">
           <p className="text-2xl font-bold text-white">2</p>
@@ -58,7 +58,7 @@ export default function Home() {
         </p>
         <p>
           Now I own end-to-end implementation for some of the largest and most
-          complex accounts in EdTech. I build playbooks from scratch, automate things
+          complex enterprise accounts. I build playbooks from scratch, automate things
           that should not still be manual, and use AI tools daily as actual working
           partners rather than novelties. I hold two master&apos;s degrees, a Scrum
           Master certification, a Full Stack Web Development certificate, and a

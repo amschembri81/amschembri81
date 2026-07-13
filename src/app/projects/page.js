@@ -155,6 +155,22 @@ export default function ProjectsOverview() {
           Earlier projects built to sharpen my SQL, Python, and machine learning skills.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {/* Personal Knowledge Base Search */}
+          <Link
+            href="/projects/search-tool"
+            className="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition"
+          >
+            <h3 className="text-xl font-semibold text-gray-400 mb-2">
+              Personal Knowledge Base Search
+            </h3>
+            <p>
+              A FastAPI + Streamlit search tool over a Wikipedia-derived
+              corpus that ranks results two ways — TF-IDF keyword matching
+              and LSA semantic matching — with a side-by-side comparison
+              view. No LLM involved.
+            </p>
+          </Link>
+
           {/* Creator Analytics Dashboard (YouTube) */}
           <Link
             href="/projects/youtube-dashboard"
